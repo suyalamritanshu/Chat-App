@@ -1,3 +1,9 @@
+# About
+
+It is like a clone of whatsapp made using <a href="https://www.npmjs.com/package/faker">faker api.</a>
+
+Faker api is a api used for filling dummy data to the website.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
