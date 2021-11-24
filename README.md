@@ -1,6 +1,8 @@
 # About
 
-It is like a clone of whatsapp designed for doctors where the user can chat and upload their files(diseases).
+It is like a clone of whatsapp designed for doctors where the user and doctors can chat and upload their files(diseases).
+
+Some features are left to be done and the project is under construction...
 
 # Getting Started with Create React App
 
