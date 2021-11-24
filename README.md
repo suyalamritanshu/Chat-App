@@ -1,6 +1,6 @@
 # About
 
-It is like a clone of whatsapp designed for doctors where the user and doctors can chat and upload their files(diseases).
+It is like a clone of whatsapp designed for doctors where the user and doctors can chat and upload their files(diseases, medicines).
 
 Some features are left to be done and the project is under construction...
 
