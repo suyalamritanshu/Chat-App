@@ -6,8 +6,6 @@ import chat from "../assets/chat.png";
 import { useContext } from "react";
 
 export default function Navbar() {
-  //   const { user } = useContext(AuthContext);
-  //   const PF = process.env.REACT_APP_PUBLIC_FOLDER;
   return (
     <div className="topbarContainer">
       <img className="image" src={doctor} alt="" height="80px" width="80px" />
