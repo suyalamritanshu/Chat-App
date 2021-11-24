@@ -1,8 +1,8 @@
 # About
 
-It is like a clone of whatsapp designed for doctors where the user and doctors can chat and upload their files(diseases, medicines).
+It is like a clone of whatsapp made using <a href="https://www.npmjs.com/package/faker">faker api.</a>
 
-Some features are left to be done and the project is under construction...
+Faker api is a api used for filling dummy data to the website.
 
 # Getting Started with Create React App
 
