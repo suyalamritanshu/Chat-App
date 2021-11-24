@@ -4,47 +4,54 @@
 	background-color: #01AB97;
 	display: flex;
 	align-items: center;
-    justify-content: auto;
+
 	top: 0;
   }
 
 .image{
 	margin-left: 20px;
+	cursor: pointer;
 
 }
 
 .image1{
-	margin-left: 800px;
+	margin-left: 750px;
 	margin-bottom: 30px;
+	cursor: pointer;
 }
 
 .image2{
 	margin-left: 90px;
 	margin-bottom: 30px;
+	cursor: pointer;
 }
 
 .image3{
 	margin-left: 90px;
 	margin-bottom: 30px;
+	cursor: pointer;
 }
 
 .caption1{
 	margin-top: 50px;
 	color: white;
-	margin-left: -40px;
+	margin-left: -70px;
+	cursor: pointer;
 }
 
 .caption2{
 	margin-top: 50px;
 	color: white;
-	margin-left: -60px;
+	margin-left: -70px;
+	cursor: pointer;
 }
 
 
 .caption3{
 	margin-top: 50px;
 	color: white;
-	margin-left: -60px;
+	margin-left: -80px;
+	cursor: pointer;
 }
 
 
@@ -52,5 +59,6 @@
 	margin-left: 10px;
 	color: white;
 	font-size: 1.5rem;
+	cursor: pointer;
 }
 

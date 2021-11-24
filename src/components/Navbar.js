@@ -20,17 +20,17 @@ export default function Navbar() {
           height="40px"
           width="40px"
         />
-        <h5 class="caption1">Find a doctor</h5>
+        <p class="caption1">Find a doctor</p>
         <img
           className="image2"
           src={deadline}
           alt=""
-          height="40px"
-          width="40px"
+          height="35px"
+          width="35px"
         />
-        <h5 class="caption2">Appointments</h5>
-        <img className="image3" src={chat} alt="" height="40px" width="40px" />
-        <h5 class="caption3">Chat with doctor</h5>
+        <p class="caption2">Appointments</p>
+        <img className="image3" src={chat} alt="" height="35px" width="35px" />
+        <p class="caption3">Chat with doctor</p>
       </div>
 
   );
