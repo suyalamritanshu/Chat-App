@@ -1,0 +1,56 @@
+.topbarContainer {
+	height: 90px;
+	width: 100%;
+	background-color: #01AB97;
+	display: flex;
+	align-items: center;
+    justify-content: auto;
+	top: 0;
+  }
+
+.image{
+	margin-left: 20px;
+
+}
+
+.image1{
+	margin-left: 800px;
+	margin-bottom: 30px;
+}
+
+.image2{
+	margin-left: 90px;
+	margin-bottom: 30px;
+}
+
+.image3{
+	margin-left: 90px;
+	margin-bottom: 30px;
+}
+
+.caption1{
+	margin-top: 50px;
+	color: white;
+	margin-left: -40px;
+}
+
+.caption2{
+	margin-top: 50px;
+	color: white;
+	margin-left: -60px;
+}
+
+
+.caption3{
+	margin-top: 50px;
+	color: white;
+	margin-left: -60px;
+}
+
+
+.title{
+	margin-left: 10px;
+	color: white;
+	font-size: 1.5rem;
+}
+
