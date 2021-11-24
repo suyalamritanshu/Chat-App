@@ -1,3 +1,7 @@
+# About
+
+It is like a clone of whatsapp designed for doctors where the user can chat and upload their files(diseases).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
