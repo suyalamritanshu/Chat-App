@@ -1,10 +1,12 @@
 import React from 'react'
 import doubleCheck from '../assets/done_all.svg'
 import Avatar from './Avatar'
+import { useState, useEffect } from "react";
 
 export default function ContactBox({ contact, setContactSelected, messages }) {
     const maxTs = Math.max(...messages.map((m) => m.date.getTime()))
     const lastMsg = messages.find((m) => m.date.getTime() === maxTs)
+    
 
     function truncate(text, length) {
         return text.length > length ? `${text.substring(0, length)} ...` : text
