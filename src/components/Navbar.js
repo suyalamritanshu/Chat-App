@@ -8,7 +8,7 @@ import { useContext } from "react";
 export default function Navbar() {
   return (
     <div className="topbarContainer">
-      <img className="image" src={doctor} alt="" height="80px" width="80px" />
+      <img className="image" href="" src={doctor} alt="" height="80px" width="80px" />
       <p className="title">Doctor-e-clinics</p>
 
         <img

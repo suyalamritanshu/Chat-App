@@ -9,7 +9,10 @@ import { AuthContext } from "./context/AuthContext";
 export default function ChatInput({ message, setMessage, pushMessage }) {
   const [Data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
+  console.log(setMessage);
+
   function handleKeyDown(e) {
+    
     if (e.key === "Enter" && message) {
       setDatatoStorage();
       getDataFromStorage();
@@ -21,7 +24,7 @@ export default function ChatInput({ message, setMessage, pushMessage }) {
   function setDatatoStorage() {
     try {
       setLoading(true);
-      localStorage.setItem("data", message);
+      localStorage.setItem("chats", message);
       setLoading(false);
     } catch (error) {
       console.log(error);
@@ -29,7 +32,7 @@ export default function ChatInput({ message, setMessage, pushMessage }) {
   }
   function getDataFromStorage() {
     try {
-      localStorage.getItem("data");
+      localStorage.getItem("chats");
     } catch (error) {
       console.log(error);
     }
@@ -43,11 +46,20 @@ export default function ChatInput({ message, setMessage, pushMessage }) {
     if (file) {
       const data = new FormData();
       const fileName = Date.now() + file.name;
+
       data.append("name", fileName);
       data.append("file", file);
       try {
         await axios.post("/upload", data);
       } catch (err) {}
+      try {
+        setLoading(true);
+        localStorage.setItem("data", fileName);
+        setLoading(false);
+      } catch (error) {
+        console.log(error);
+      }
+      getDataFromStorage();
     }
   };
 
